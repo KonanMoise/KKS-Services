@@ -54,6 +54,36 @@ nav .lien_nav a:hover{
 
 /* END BANNER */
 
+.position{
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div1{
+    background-color: #233452;
+    border-radius: 10px;
+    height: 250px;
+    padding: 10px;
+    color: #fff;
+}
+
+.div2{
+    height: 250px;
+    background-color: #233452;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.div3{
+    background-color: #233452;
+    border-radius: 10px;
+    height: 250px;
+    color: #fff;
+} 
+
+
 
 /* footer */
 .footer {
@@ -112,10 +142,47 @@ nav .lien_nav a:hover{
     margin-right: 10px;
 }
 
-.footer .container .foot-info {
-    text-align: center;
-}
-
 .footer .container .foot-info p {
     font-size: 1.2rem;
 }
+
+
+
+
+
+
+
+
+/* contact */
+.container{
+    
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+  
+  input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+      box-sizing: border-box; 
+      margin-top: 6px;
+      margin-bottom: 16px; 
+      resize: vertical;
+      }
+  
+      input[type=submit] {
+          background-color: #04AA6D;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+  
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }   
