@@ -53,3 +53,69 @@ nav .lien_nav a:hover{
 
 
 /* END BANNER */
+
+
+/* footer */
+.footer {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 25px;
+    padding: 50px 0px;
+    color: #CE4DD0;
+}
+
+.footer .container {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.footer .container .row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0px 200px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #CE4DD0;
+}
+
+.footer .container .row .footer-col a {
+    color: rgb(109, 105, 105);
+} 
+ 
+.footer .container .row .footer-col h2 {
+    font-size: 2em;
+    color: #CE4DD0;
+} 
+
+.footer .container .row .footer-col h4 {
+    font-size: 1.2em;
+    padding-top: 5px;
+}
+
+.footer .container .social {
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+.footer .container .social div {
+    border: 1px solid #CE4DD0;
+    background-color: #f2f2f2;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px; /* pour l'icons */
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.footer .container .foot-info {
+    text-align: center;
+}
+
+.footer .container .foot-info p {
+    font-size: 1.2rem;
+}
